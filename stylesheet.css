@@ -1,0 +1,35 @@
+.btn-primary {
+    background-color: transparent;
+    border-color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+
+.header-content hr {
+    border-color: dodgerblue;
+}
+
+.rech_localisation {
+    position: relative;
+    margin-bottom: 70px;
+}
+.rech_localisation input[type="text"] {
+    width:100%;
+    padding:20px 50px 20px 50px;
+    background: rgba(255, 255, 255, 0.5);
+    color: steelblue;
+    border:1px solid transparent;
+    border-radius: 25px;
+}
+
+.rech_localisation input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background: dodgerblue;
+    color: #ffffff;
+    border:transparent;
+    border-radius: 25px;
+
+}
