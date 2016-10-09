@@ -1,3 +1,8 @@
+header {
+    /*background-image: url("img/clear.jpeg");*/
+
+}
+
 .btn-primary {
     background-color: transparent;
     border-color: dodgerblue;
@@ -15,8 +20,8 @@
 .rech_localisation input[type="text"] {
     width:100%;
     padding:20px 50px 20px 50px;
-    background: rgba(255, 255, 255, 0.5);
-    color: steelblue;
+    background: rgba(255, 255, 255, 0.6);
+    color: darkslateblue;
     border:1px solid transparent;
     border-radius: 25px;
 }
@@ -32,4 +37,26 @@
     border:transparent;
     border-radius: 25px;
 
+}
+
+.img_arrow {
+    vertical-align: middle;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
+
+.bgvid {
+    position: fixed;
+    opacity:1;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+#services {
+    background-color: #FFFFFF;
 }
